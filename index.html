@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AnalogSea | Signup</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Cloud Computing Technology">
+    <meta name="keywords" content="Signup Signin">
+    <meta name="author" content="Penguin">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Hind|Open+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <header role="banner">
+      <img src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.5.2_challenge_signup_form/logo.png" class="logo" alt="AnalogSea Logo">
+    </header>
+    <main role="main" class="main">
+        <form class="signup-form" action="/signup/">
+          <div>Sign Up</div>
+            <fieldset>
+              <div>
+                <legend for="email">Email</legend>
+                <input for="email" type="email" name="email" placeholder="foo@bar.com" required>
+                <legend for="passowrd">Password</legend>
+                <input for="password" type="password" name="password" placeholder='1234Passw0rd!'required>
+              </div>
+            </fieldset>
+            <button for="signup" type="button">Sign up</button>
+        </form>
+        <div role="Login" class="return">
+        <p>Already have an account? <span a href="/login"><u>Log In</u></span></p>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
